@@ -21,7 +21,7 @@ int main(int argc, const char * argv[]) {
     int favNumber;
     
     // std is a namespace
-    // 'using namespace std' pulls in all type definitions into the current scope
+    // 'using namespace std' pulls in all type definitions into the current scope -> to be avoided
     // instead use std::
     std::cout << "What's your favorite number between 1 and " << MAXIMUM << "?\n" << std::endl;
     std::cin >> favNumber;
