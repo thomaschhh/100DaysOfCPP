@@ -1,2 +1,6 @@
 **/day1.xcodeproj
+**/day2.xcodeproj
 **/.DS_STORE
+**/main.dsym
+.vscode
+**/main
