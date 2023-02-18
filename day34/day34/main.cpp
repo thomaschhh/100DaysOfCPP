@@ -7,7 +7,6 @@
 // Both .cpp files are built and linked to an executable
 
 #include <iostream>
-#include <string>
 #include "Player.h"  // local to this project, never include .cpp files
 
 int main(int argc, const char * argv[]) {
