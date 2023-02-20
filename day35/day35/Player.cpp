@@ -15,19 +15,19 @@ Player::Player(){
     name_ = "Tom Smith";
     health_ = 0;
     xp_ = 0;
-};
+}
 
 // If only one of the following constructors would be implemented
 // there would no longer be a default constructor
 Player::Player(std::string name){
     name_ = name;
-};
+}
 
 Player::Player(std:: string name, int health, int xp){
     name_ = name;
     health_= health;
     xp_ = xp;
-};
+}
 
 // Destructor
 // There can only be one per class
@@ -35,7 +35,7 @@ Player::Player(std:: string name, int health, int xp){
 // Destroys objects in reverse order compared to their creation
 Player::~Player(){
     std::cout << "Destroyed Player called: " << name_ << std::endl;
-};
+}
 
 // Class methods
 void Player::set_name(std::string name){
