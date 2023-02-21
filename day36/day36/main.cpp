@@ -5,7 +5,7 @@
 //  Created by Thomas Holz on 20.02.23.
 //
 // Initializer list
-// Are more efficient, initializes the data members as the obiect is created!
+// Are more efficient, initializes the data members as the object is created!
 
 #include <iostream>
 #include "Player.hpp"
