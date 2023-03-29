@@ -92,17 +92,17 @@ size_t Astring::get_length() const {
 
 // Global overloaded stream operator
 std::ostream& operator<<(std::ostream& output, const Astring& rhs){
-    output << rhs.str_;
+    for (size_t i = 0; i < rhs.get_length(); ++i) {
+        output << rhs.str_[i];
+    }
     return output;
 }
 
 std::istream& operator>>(std::istream& input, Astring& rhs){
-    char* buffer = new char[1000];
-    input >> buffer;
-    rhs = Astring {buffer};
-    
-    delete [] buffer;
-    
+    const size_t max_str_len {1000};
+    char buffer[max_str_len];
+    input.getline(buffer, max_str_len);
+    rhs = buffer;
     return input;
 }
 
