@@ -1,5 +1,6 @@
 **/day[0-9].xcodeproj
 **/day[0-9][0-9].xcodeproj
+**/day[0-9][0-9][0-9].xcodeproj
 **/.DS_STORE
 **/main.dsym
 .vscode
